@@ -1,36 +1,37 @@
 pt-BR:
-  next: "Próximo"
-  previous: "Anterior"
-  name: "Nome"
-  body: "Corpo"
-  link_url: "URL"
-  image: "Imagem"
-  preview: "Visualizar"
-  image_file_name: "Nome da Imagem"
-  published: "Publicado"
-  position: "Posição"
-  y: "Sim"
-  n: "Não"
-
   activerecord:
     models:
       spree/slide: "Banner"
 
-  solidus_slider:
-    config_name: "Banners"
-    config_description: "Configurações Banners"
-    title: "Banners"
-    new_slide: "Novo Banner"
-    editing_slide: "Editando Banner"
-    back_to_slides: "Voltar para Banners"
-    placeholder_name: "Deixe em branco para usar o nome do produto"
-    placeholder_link_url: "Deixe em branco para usar a url do produto"
-    image_tip: "Padrão é a primeira imagem do produto"
+  spree:
+    next: "Próximo"
+    previous: "Anterior"
+    name: "Nome"
+    body: "Corpo"
+    link_url: "URL"
+    image: "Imagem"
+    preview: "Visualizar"
+    image_file_name: "Nome da Imagem"
+    published: "Publicado"
+    position: "Posição"
+    y: "Sim"
+    n: "Não"
 
-  solidus_slider_locations:
-    config_name: "Locais do Banners"
-    config_description: "Configurações de Locais do Banners"
-    title: "Locais do Banner"
-    new_location: "Novo Local"
-    editing_location: "Editando Local"
-    back_to_locations: "Voltar para Locais"
+    slider:
+      config_name: "Banners"
+      config_description: "Configurações Banners"
+      title: "Banners"
+      new_slide: "Novo Banner"
+      editing_slide: "Editando Banner"
+      back_to_slides: "Voltar para Banners"
+      placeholder_name: "Deixe em branco para usar o nome do produto"
+      placeholder_link_url: "Deixe em branco para usar a url do produto"
+      image_tip: "Padrão é a primeira imagem do produto"
+
+    slider_locations:
+      config_name: "Locais do Banners"
+      config_description: "Configurações de Locais do Banners"
+      title: "Locais do Banner"
+      new_location: "Novo Local"
+      editing_location: "Editando Local"
+      back_to_locations: "Voltar para Locais"
