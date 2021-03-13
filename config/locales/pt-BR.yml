@@ -16,6 +16,7 @@ pt-BR:
     position: "Posição"
     y: "Sim"
     n: "Não"
+    new_slide: "Novo Banner"
 
     slider:
       config_name: "Banners"
